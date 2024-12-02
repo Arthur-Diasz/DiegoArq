@@ -558,4 +558,8 @@ h6 {
     #sobre-txt {
         margin-top: 20px;
     }
+
+    .card-left {
+        border-bottom: 0;
+    }
 }
