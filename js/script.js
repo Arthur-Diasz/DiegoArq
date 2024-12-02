@@ -1,7 +1,11 @@
+document.addEventListener("DOMContentLoaded", function () {
+    AOS.init(); // Inicializa AOS
+});
+
 AOS.init({
-    duration: 1000, // Duração da animação em milissegundos
-    easing: "ease-in-out", // Tipo de easing para a animação
-    once: false, // Executa a animação apenas uma vez ao rolar a página
+    duration: 1000, 
+    easing: "ease-in-out",
+    once: false, 
 });
 
 
